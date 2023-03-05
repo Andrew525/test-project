@@ -1,0 +1,63 @@
+@import "reset.css";
+
+html {
+  font-size: 62.5% !important; /* 16px x 62.5 = 10px = 1rem */
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: #ccc;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.app.dark header {
+    background: #333;
+}
+
+.app.dark footer {
+  background: #333;
+}
+
+.app button {
+  background: #1976d3;
+  color: #fff;
+}
+
+.app.dark button {
+  background: #333;
+}
+
+.app-content {
+  padding: 3rem 1.5rem;
+  overflow-y: auto;
+  display: flex;
+  justify-content: center;
+  flex: 1 1 auto;
+}
+
+a {
+  color: #fff;
+}
+
+a:hover {
+  cursor: pointer;
+  color: peru;
+}
+
+svg:hover path{
+  fill: peru;
+}
+
+a.logo {
+  font-size: 2rem;
+  color: #fff;
+  font-weight: 500;
+}
+
